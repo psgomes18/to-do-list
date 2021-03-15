@@ -21,12 +21,14 @@ function addTodo(event) {
     todoDiv.appendChild(newTodo)
     //Check Mark Button
     const completedButton = document.createElement('button')
-    completedButton.innerText = '<i class"fas fa-check"></i>'
+    completedButton.innerHTML = '<i class="fas fa-check"></i>'
     completedButton.classList.add('complete-btn')
     todoDiv.appendChild(completedButton)
     //Check trash button
     const TrashButton = document.createElement('button')
-    TrashButton.innerText = '<i class"fas fa-trash"></i>'
+    TrashButton.innerHTML = '<i class="fas fa-trash"></i>'
     TrashButton.classList.add('complete-btn')
-    todoDiv.appendChild(TrashButton)   
+    todoDiv.appendChild(TrashButton)
+    //Apend to List
+    todoList.appendChild(todoDiv)   
 }
