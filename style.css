@@ -5,9 +5,9 @@
 }
 
 body{ 
-    background-color:linear-graddient(120deg, #65f69d, #cc9292);
-    color: white;
-    font-family: "Poppins" sans-serif;
+    background-image:linear-gradient(120deg, #65f69d, #fdbdff);
+    color: rgb(255, 255, 255);
+    font-family: "Ubuntu" sans-serif;
     min-height: 100vh;
 }
 
@@ -30,4 +30,15 @@ form input, form button{
     background: white;
 }
 
+form button {
+    color: #65f69d;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    background: #65f69d;
+    color:white;   
+}
 
